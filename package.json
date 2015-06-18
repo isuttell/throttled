@@ -1,0 +1,29 @@
+{
+  "name": "throttled",
+  "version": "0.1.0",
+  "description": "Middleware to throttle http requests",
+  "main": "middleware.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/isuttell/throttled.git"
+  },
+  "keywords": [
+    "express.js",
+    "node.js",
+    "middleware"
+  ],
+  "author": "Isaac Suttell <isaac@isaacsuttell.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isuttell/throttled/issues"
+  },
+  "homepage": "https://github.com/isuttell/throttled",
+  "dependencies": {
+    "async": "^1.2.1",
+    "moment": "^2.10.3",
+    "redis": "^0.12.1"
+  }
+}
